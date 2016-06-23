@@ -25,6 +25,7 @@ a {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   color: #f05f40;
+  font-family:'Ubuntu', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 a:hover,
 a:focus {
@@ -36,12 +37,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family:'Ubuntu', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
+  font-family:'Ubuntu', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 .bg-primary {
   background-color: #f05f40;
@@ -375,7 +377,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: #ffffff;
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Ubuntu', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   border: none;
   border-radius: 300px;
   font-weight: 700;
@@ -404,4 +406,11 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+.value-proposition {
+    font-family: 'Ubuntu', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    padding: 20px;
+    width: 50%;
+    vertical-align: top;
+    border: 1px solid #ffffff;
 }
